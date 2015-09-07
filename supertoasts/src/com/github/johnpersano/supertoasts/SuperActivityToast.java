@@ -528,6 +528,16 @@ public class SuperActivityToast {
     }
 
     /**
+     * Sets the background color
+     *
+     * @param background {@link android.graphics.Color}
+     */
+    public void setBackgroundColor(int background) {
+        mRootLayout.setBackgroundColor(background);
+
+    }
+
+    /**
      * Returns the background resource of the {@value #TAG}.
      *
      * @return int
